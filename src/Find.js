@@ -1,5 +1,6 @@
 import React from "react";
 import axios from "axios";
+import "./Find.css";
 
 export default function Find() {
   function handleResponse(response) {
@@ -14,9 +15,11 @@ export default function Find() {
   }
   return (
     <div className="Find">
-      <button type="submit" onClick={getRandom}>
-        Find me a Whoa
-      </button>
+      <main className="text-center">
+        <button type="submit" onClick={getRandom}>
+          Find me a Whoa
+        </button>
+      </main>
     </div>
   );
 }
