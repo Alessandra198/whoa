@@ -8,6 +8,10 @@ function App() {
       <h1>Whoa</h1>
       <h2>By Keanu Reeves</h2>
       <Find />
+      <footer>
+        Coded with 🩷 by{" "}
+        <a href="https://www.alessandrarinaldo.com">Alessandra Rinaldo</a>
+      </footer>
     </div>
   );
 }
