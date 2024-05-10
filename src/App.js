@@ -1,5 +1,4 @@
 import Find from "./Find";
-//import axios from "axios";
 import "./App.css";
 
 function App() {
@@ -8,7 +7,7 @@ function App() {
       <h1>Whoa</h1>
       <h2>By Keanu Reeves</h2>
       <Find />
-      <footer>
+      <footer className="text-center">
         Coded with 🩷 by{" "}
         <a href="https://www.alessandrarinaldo.com">Alessandra Rinaldo</a>
       </footer>
