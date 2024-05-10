@@ -8,8 +8,10 @@ function App() {
       <h2>By Keanu Reeves</h2>
       <Find />
       <footer className="text-center">
-        Coded with 🩷 by{" "}
-        <a href="https://www.alessandrarinaldo.com">Alessandra Rinaldo</a>
+        Coded with 💪 and 🔥 by{" "}
+        <a href="https://www.alessandrarinaldo.com" alt="Alessandra's website">
+          Alessandra Rinaldo
+        </a>
       </footer>
     </div>
   );
