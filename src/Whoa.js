@@ -21,16 +21,12 @@ export default function Whoa(props) {
                 </p>
               </div>
               <div className="col-md-6">
-                <audio controls src={element.audio}>
-                  {" "}
-                  controlsAudio
-                </audio>
                 <video
                   src={element.video["360p"]}
                   controls
                   className="img-fluid"
                 >
-                  Video
+                  Video not available
                 </video>
               </div>
             </div>
