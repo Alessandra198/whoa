@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import axios from "axios";
+import Whoa from "./Whoa";
 import "./Find.css";
 
 export default function Find() {
+  let [data, setData] = useState(null);
   function handleResponse(response) {
     console.log(response.data);
+    setData(response.data);
   }
 
   function getRandom(event) {
@@ -20,6 +23,7 @@ export default function Find() {
           Find me a Whoa
         </button>
       </main>
+      <Whoa data={data} />
     </div>
   );
 }
