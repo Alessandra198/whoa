@@ -1,4 +1,5 @@
 import React from "react";
+import "./Whoa.css";
 
 export default function Whoa(props) {
   if (props.data) {

@@ -19,16 +19,3 @@
   color: white;
   scale: 1.2;
 }
-
-.Find .Whoa {
-  color: white;
-}
-
-.Find .Whoa .row {
-  padding: 0 20px;
-}
-
-.Find .Whoa video {
-  border: 1px solid white;
-  border-radius: 10px;
-}
